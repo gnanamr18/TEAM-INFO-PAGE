@@ -1,0 +1,172 @@
+.detailsform{
+    width: 1800px;
+    height: 4500px;
+    background-color: antiquewhite;
+    margin: 100px auto;
+    font-size: 30px;
+}
+
+.heading{
+    background-color: rgb(191, 191, 246);
+    text-align: center;
+    font-family:cursive;
+    color: rgb(99, 7, 7);
+    font-size: 60px;
+}
+.abtus{
+    color: tomato;
+    font-size: 55px;
+}
+.para1{
+    font-size:50px ;
+}
+
+
+.para2{
+    font-size:50px ;
+}
+
+.tmembers{
+    color: tomato;
+}
+.tmembers{
+    font-size:55px ;
+}
+
+.contactus{
+    color: tomato;
+    font-size: 65px;
+}
+
+.email{
+    font-size: 60px;
+}
+.layout{
+    display: grid;
+    grid-template-columns:300px 1000px;
+    column-gap: 5px;
+    row-gap: 5px;
+    margin-left: 20px;
+    
+}
+
+.layout div{
+    display: grid;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+div.name{
+    border: 15px solid brown;
+    height: 100px;
+ }
+div.image{
+    border:15px solid brown;
+    height: 100px;
+}
+.cs{
+    height: 150px;
+    width: 150px;
+    clip-path: circle(50%);
+    /* border-radius: 90%; */
+   
+}
+.c,.p,.j,.jp,.ras,.rp{
+    background-color: whitesmoke;
+}
+
+
+.gn {
+    height: 150px;
+    width: 150px;
+    /* border-radius: 200%px; */
+    clip-path: circle(50%);
+}
+
+
+
+.pt{
+    height: 150px;
+    width: 150px;
+    border-radius: 200%px;
+    clip-path: circle(50%);
+
+}
+
+
+.jn {
+    height: 150px;
+    width: 150px;
+    border-radius: 200%px;
+    clip-path: circle(50%);
+}
+
+.r{
+    height: 150px;
+    width: 150px;
+    border-radius: 200%px;
+    clip-path: circle(50%);
+}
+
+.vet{
+    height: 150px;
+    width: 150px;
+    border-radius: 200%px;
+    clip-path: circle(50%);
+}
+
+.cu{
+    width: 1600px;
+    background-color: rgb(227, 210, 210);
+    margin-left: 50px;
+    margin-bottom:50px;
+    font-size: 45px;
+}
+.cu form{
+    margin: 15px;
+}
+.cu .inpu.textlable{
+    width: 100px;
+    display: inline-block;
+    font-size: 10px;
+  
+    
+}
+.cu .eq{
+    display: inline-block;
+}
+
+.radio input{
+    transform: scale(3);
+}
+
+button{
+    background-color: rgb(122, 122, 240);
+    margin: 40px;
+    font-size: 45px;
+    color: red;
+}
+
+.input input{
+    font-size: 1em;
+    border: 1px solid green;
+    border-radius: 10px;
+    box-shadow: 2px;
+    box-sizing: border-box;
+    margin: 5px 0 15px;
+}
+
+.checkbox input{
+    transform: scale(5);
+}
+
+.radio female{
+    text-align: right;
+}
